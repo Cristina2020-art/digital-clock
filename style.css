@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    background-image: url("backgroung-image-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+.date{
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255); 
+}
+#digitalClock{
+    font-family: 'orbitron';
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: rgb(224, 238, 250); 
+    text-shadow: 0px 0px 24px rgb(255, 255, 255); 
+    font-size: 5rem;
+}
+span{
+    color: rgb(69, 154, 199);
+}
